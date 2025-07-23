@@ -13,7 +13,7 @@ const Navbar = () => {
     setSearch(e.target.value);
   };
 
-  // Core API fetch function
+  
   const fetchNews = async (query) => {
     const getdata = await fetch(
       `https://newsapi.org/v2/everything?q=${query}&apiKey=${api_key}`
@@ -22,20 +22,20 @@ const Navbar = () => {
     setnewsdata(response.articles);
   };
 
-  // On form search
+ 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-    fetchNews(search); // use the current search value
+    fetchNews(search); 
   };
 
-  // On topic button click
+ 
   const user = (e) => {
     const topic = e.target.value;
     setSearch(topic);
-    fetchNews(topic); // fetch directly with button value
+    fetchNews(topic); 
   };
 
-  // Initial load with default "india"
+  
   useEffect(() => {
     fetchNews("india");
   }, []);
