@@ -1,1 +1,1 @@
-
+Newsverse is a React-based web application that provides the latest news from various categories like Sports, Health, Politics, and Entertainment. It uses API to fetch real-time articles based on user searches or selected topics, offering a clean and responsive interface.
