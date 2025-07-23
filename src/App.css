@@ -1,38 +1,81 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.navv{
+  height: 100px;
+  background-color: rebeccapurple;
+  margin-top: -15px;
+}
+
+
+.logo img{
+  height: 110px;
+  width: 110px;
+  margin-left: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.title{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: -80px;
+  font-size: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.btnn button{
+  border-radius: 10%;
+  width: 70px;
+  background-color: rgb(198, 165, 230);
+  font-size: 16px;
+  color: rgb(43, 42, 42);
+  cursor: pointer;
+  font-weight: 600;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn1{
+      margin-left: 1100px;
+      margin-top: -40px;
+      
 }
+.btn2{
+      margin-left: 1170px;
+      margin-top: -28px;
+}
+
+.nav2{
+  height: 50px;
+  background-color: rgb(242, 236, 236);
+  padding-left: 450px;
+  
+}
+
+.nav2 button{
+  border-radius: 10%;
+  height: 35px;
+  margin: 11px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+  
+
+}
+
+.card-container {
+  display: flex;
+  gap: 1px; /* space between cards */
+  flex-wrap: wrap; /* allow wrapping if screen is small */
+}
+
+.form{
+  margin-left: 550px;
+  margin-top: -57px;
+}
+
